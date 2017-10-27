@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "962433501477",
+    "firebase_url": "https://tonychat-ac3f8.firebaseio.com",
+    "project_id": "tonychat-ac3f8",
+    "storage_bucket": "tonychat-ac3f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962433501477:android:ab77d6e0ec2e05f0",
+        "android_client_info": {
+          "package_name": "com.example.tonypark.tonychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962433501477-e8ui6m19o333tvcujsrkbru860gnoeg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzb_zDVRM2zuSMbqoJUOtwhV0NjJosh84"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
