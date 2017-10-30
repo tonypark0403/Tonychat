@@ -1,11 +1,13 @@
 package com.example.tonypark.tonychat;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -23,6 +25,8 @@ public class LoadActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_load);
+        //remove status bar
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         linearLayout = (LinearLayout) findViewById(R.id.loadactivity_linearlayout);
 
@@ -74,7 +78,7 @@ public class LoadActivity extends AppCompatActivity {
             });
             builder.create().show();
         } else {
-            
+            startActivity(new Intent(this, LoginActivity.class));
         }
     }
 }

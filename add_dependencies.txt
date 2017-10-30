@@ -1,0 +1,2 @@
+add design
+com.android.support:design:26.1.0 <- same as the version of appcompat
