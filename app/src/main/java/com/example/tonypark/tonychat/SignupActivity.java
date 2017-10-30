@@ -69,7 +69,8 @@ public class SignupActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (email.getText().toString() == null && email.getText().toString().equals("")
                         || name.getText().toString() == null && name.getText().toString().equals("")
-                        || password.getText().toString() == null && password.getText().toString().equals("")) {
+                        || password.getText().toString() == null && password.getText().toString().equals("")
+                        || imageUri.equals(null)) {
                     return;
                 }
 
@@ -91,6 +92,8 @@ public class SignupActivity extends AppCompatActivity {
 
                                         FirebaseDatabase.getInstance().getReference().child("users").child(uid).setValue(user);
                                         Toast.makeText(getApplicationContext(), "succes", Toast.LENGTH_SHORT).show();
+                                        startActivity(new Intent(SignupActivity.this, LoginActivity.class));
+                                        finish();
                                     }
                                 });
                             }
