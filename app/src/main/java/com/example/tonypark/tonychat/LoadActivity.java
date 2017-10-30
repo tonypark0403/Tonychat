@@ -62,7 +62,7 @@ public class LoadActivity extends AppCompatActivity {
     }
 
     private void displayMessage() {
-        String load_background = mFirebaseRemoteConfig.getString("load_background");
+        String load_background = mFirebaseRemoteConfig.getString(getString(R.string.rc_color));
         boolean caps = mFirebaseRemoteConfig.getBoolean("load_message_caps");
         String load_message = mFirebaseRemoteConfig.getString("load_message");
 

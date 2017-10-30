@@ -5,43 +5,41 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.example.tonypark.tonychat.LoginActivity">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/chatting" />
+    tools:context="com.example.tonypark.tonychat.SignupActivity">
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
-            android:id="@+id/loginActivity_editText_id"
+            android:id="@+id/signupActivity_editText_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="ID" />
+            android:hint="Email" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
-            android:id="@+id/loginActivity_editText_password"
+            android:id="@+id/signupActivity_editText_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signupActivity_editText_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password" />
     </android.support.design.widget.TextInputLayout>
 
     <Button
-        android:id="@+id/loginActivity_button_login"
+        android:id="@+id/signupActivity_button_signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"/>
-
-    <Button
-        android:id="@+id/loginActivity_button_signup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="Register"/>
+        android:text="Sign Up"/>
 </LinearLayout>

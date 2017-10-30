@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "962433501477-kt6g3qmrol9cchv5meulultfc9bmqq49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tonypark.tonychat",
+            "certificate_hash": "727c703d8528aea38b327d1cd72d176216850a03"
+          }
+        },
+        {
           "client_id": "962433501477-e8ui6m19o333tvcujsrkbru860gnoeg0.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962433501477-e8ui6m19o333tvcujsrkbru860gnoeg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

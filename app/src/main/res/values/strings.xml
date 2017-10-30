@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Tonychat</string>
+    <string name="rc_color">load_background</string>
 </resources>
