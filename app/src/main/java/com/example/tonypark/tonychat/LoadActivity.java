@@ -73,6 +73,8 @@ public class LoadActivity extends AppCompatActivity {
                 }
             });
             builder.create().show();
+        } else {
+            
         }
     }
 }
