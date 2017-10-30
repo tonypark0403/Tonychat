@@ -6,6 +6,7 @@ package com.example.tonypark.tonychat.model;
 
 public class User {
     private String userName;
+    private String profileImageUrl;
 
     public String getUserName() {
         return userName;
@@ -13,5 +14,13 @@ public class User {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+
+    public String getprofileImageUrl() {
+        return profileImageUrl;
+    }
+
+    public void setProfileImageUrl(String profileImageUrl) {
+        this.profileImageUrl = profileImageUrl;
     }
 }
